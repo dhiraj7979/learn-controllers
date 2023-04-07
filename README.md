@@ -4,12 +4,12 @@ Run 'php artisan storage:link' command (Might not be necessary).<br/>
 Run 'php artisan serve' command to start the server.<br/>
 From postman app create an entry into the database video table.<br/><br/>
 Eg:
-url -> http:localhost:8000/api/videos
-method-> post
-body(json) ->
-{
-    "name" : "any name",
-    "path" : "storage/videos/tutorial.mp4"
+url -> http:localhost:8000/api/videos<br/>
+method-> post<br/>
+body(json) -><br/>
+{<br/>
+    "name" : "any name",<br/>
+    "path" : "storage/videos/tutorial.mp4"<br/>
 }
 <br/><br/>
 See if the entry got entered in database can also verify by running get request on http:localhost:8000/api/videos.<br/>
