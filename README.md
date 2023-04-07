@@ -1,5 +1,5 @@
-Run 'composer install' command to install all dependencies.
-Run 'php artisan migrate' command in the root directory of this project.
+Run 'composer install' command to install all dependencies.<br/>
+Run 'php artisan migrate' command in the root directory of this project.<br/>
 Run 'php artisan storage:link' command (Might not be necessary).
 Run 'php artisan serve' command to start the server.
 From postman app create an entry into the database video table
